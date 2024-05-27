@@ -8,7 +8,7 @@ function App() {
         <TextContainer />
         <StyledFlex>
           <Console />
-          <StyledBtn align="flex-end">Enter</StyledBtn>
+          <StyledBtn align="flex-end" outlined>Enter</StyledBtn>
         </StyledFlex>
     </AppWrapper>
   );

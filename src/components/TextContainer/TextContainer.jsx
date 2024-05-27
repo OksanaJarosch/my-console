@@ -4,7 +4,7 @@ import { StyledTitle } from "./TextContainer.styled";
 
 export const TextContainer = ( ) => {
     return (
-        <StyledFlex justify="center">
+        <StyledFlex align="center">
             <StyledTitle>console.oksanajarosch</StyledTitle>
         </StyledFlex>
     )
