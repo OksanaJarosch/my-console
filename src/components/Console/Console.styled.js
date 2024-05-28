@@ -6,7 +6,7 @@ export const StyledCommandLine = styled.textarea`
     font-size: 24px;
     border: none;
     resize: none;
-    color: ${props => props.color || "white"};
+    color: ${props => props.color || props.theme.colors.secondary};
     &:focus {
         outline: none;
     }

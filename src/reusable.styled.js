@@ -16,7 +16,7 @@ export const AppWrapper = styled.div`
     width: 100%;;
     min-height: 100vh;
     padding: 2rem;
-    color: #c4b318;
+    color: ${props => props.theme.colors.primary};
 `;
 
 export const StyledFlex = styled.div`
@@ -51,5 +51,5 @@ export const StyledBtn = styled.button`
 
 export const StyledLine = styled.div`
     font-size: 24px;
-    color: ${props => props.color || "#d88d4b"}
+    color: ${props => props.color || props.theme.colors.primary}
 `;
